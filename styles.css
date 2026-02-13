@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color:#2F0B81;
 }
 
 a, h1, h2, li, p {
@@ -9,7 +10,6 @@ a, h1, h2, li, p {
 
 footer {
     color: #FFFFFF;
-    height: 10%;
 }
 
 iframe {
@@ -19,7 +19,7 @@ iframe {
 }
 
 nav {
-   height: 10%;
+   height: 8%;
 }
 
 nav a {
