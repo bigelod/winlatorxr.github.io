@@ -58,6 +58,7 @@
     <li><strong>GmoLargey</strong> does the testing and creates tutorials.</li>
     <li><strong>Tobbe85</strong> ported the project to Pico headsets.</li>
     <li><strong>EasonZxp</strong> ported the project to Play for Dream headsets.</li>
+    <li><strong>No1</strong> takes care of SideQuest listing and updates.</li>
   </ul>
   <p>
     Special thanks to Amanda Watson for writing a tutorial on developing hybrid (2D/VR) applications. That knowledge was unavailable elsewhere, and this project would not have been possible without her contribution.
@@ -89,8 +90,65 @@
   </ul>
   
   <h1>History</h1>
+  <h2>Project Background</h2>
   <p>
-	<img src="img/winlatorxr_history.jpeg" width="45%">
+  Between <strong>2022</strong> and <strong>2024</strong>, the lead developer of WinlatorXR
+  focused extensively on advancing immersive emulation for standalone VR headsets.
+  In 2022, he introduced <strong>PPSSPP VR</strong>, bringing stereoscopic 3D rendering
+  and head tracking to classic handheld titles. In 2023, he revived the
+  <strong>VirtualGoBoy</strong> emulator, making it working on newer Android versions.
+  Continuing this trajectory in 2024, he contributed to <strong>CitraVR</strong>
+  by implementing an immersive mode that significantly enhanced
+  Nintendo 3DS emulation within VR environments. Together, these projects
+  demonstrated a consistent effort to expand VR-native emulation and improve
+  spatial presence across multiple platforms.
   </p>
+
+  <p>
+  After discovering the <strong>Winlator</strong> project, the developer immediately
+  recognized its potential and initiated contact to explore the integration of
+  <strong>OpenXR</strong> support. The objective was to enable standardized VR runtime
+  compatibility and extend immersive capabilities within the Windows container
+  environment. However, the original repository proved challenging for external open-source
+  collaboration. Limited flexibility for community contributions led to the
+  creation of multiple independent forks and mods of the project.
+  These forks focused on experimentation, feature expansion, and improved
+  integration paths, ultimately contributing to the growth and diversification
+  of the ecosystem surrounding the project.
+  </p>
+
+  <h2>Project Evolution</h2>
+  <p>
+  Initially, there was no intention to create an independent fork or modification of WinlatorXR.
+  The project existed as part of the official Winlator repository, with the goal of contributing
+  VR functionality directly upstream. However, frequent Quest OS updates repeatedly broke
+  compatibility, and the time required to implement hotfixes proved to be too long for a
+  stable and reliable development cycle. Over time, it became clear that relying solely on
+  the original repository structure was not a sustainable solution.
+  </p>
+
+  <p>
+  The emergence of the GLIBC fork marked a significant turning point. This fork delivered
+  a substantial performance improvement, and its maintainer — a Chinese student developer —
+  quickly granted administrative access to the lead developer. This collaboration proved
+  to be mutually beneficial and accelerated development. Unfortunately, the original
+  maintainer later disappeared from the internet, leaving the project without consistent
+  upstream updates or long-term maintenance.
+  Meanwhile, Tobbe85 introduced a separate fork that added support for Pico headsets.
+  This broadened hardware compatibility and brought increased visibility to the project.
+  Around the same time, GmoLargey became heavily involved as a primary tester of early
+  WinlatorXR builds, providing valuable feedback and helping refine stability and
+  performance during critical development stages.
+  </p>
+
+  <p>
+  In the summer of 2025, the release of Winlator Cmod/Bionic resolved long-standing
+  issues related to Meta Quest drivers and unlocked compatibility with DirectX 9
+  and newer titles. This development represented a major breakthrough. The lead
+  developer merged these improvements together with Tobbe85’s work, effectively
+  rebooting the project and establishing a stronger, more unified foundation for
+  future WinlatorXR development.
+  </p>
+  <center><img src="img/winlatorxr_history.jpeg" width="67%"></center>
 </body>
 </html>
