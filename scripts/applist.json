@@ -1,0 +1,30 @@
+[
+	{
+		"c1Name": "App Name",
+		"c2Name": "Has Worked on Quest 2 / Pro? <br/> (Y/N/?)",
+		"c3Name": "Has Worked on Quest 3 / 3S? <br/> (Y/N/?)",
+		"c4Name": "Has Worked on Pico 4 Ultra? <br/> (Y/N/?)",
+		"c1Size": "30%",
+		"c2Size": "15%",
+		"c3Size": "15%",
+		"c4Size": "15%"
+	},
+	{
+		"name": "7Zip",
+		"worksQ2": "Y",
+		"worksQ3": "Y",
+		"worksP4": "Y"
+	},
+	{
+		"name": "Steam",
+		"worksQ2": "N",
+		"worksQ3": "N",
+		"worksP4": "N"
+	},
+	{
+		"name": "WinRAR",
+		"worksQ2": "Y",
+		"worksQ3": "Y",
+		"worksP4": "Y"
+	}
+]
