@@ -242,13 +242,13 @@
 		"c4Sup": ""
 	},
 	{
-		"redditUrl": "",
-		"name": "Fallout New Vegas",
+		"redditUrl": "https://www.reddit.com/r/winlatorxr/comments/1rd3l7q/fallout_new_vegas_gog_on_meta_quest_3/",
+		"name": "Fallout New Vegas (GOG)",
 		"c1Sup": "",
 		"worksQ2": "N",
 		"c2Sup": "",
-		"worksQ3": "?",
-		"c3Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "1",
 		"worksP4": "?",		
 		"c4Sup": ""
 	},
@@ -269,9 +269,9 @@
 		"c1Sup": "",
 		"worksQ2": "Y",
 		"c2Sup": "",
-		"worksQ3": "?",
+		"worksQ3": "Y",
 		"c3Sup": "",
-		"worksP4": "?",		
+		"worksP4": "Y",		
 		"c4Sup": ""
 	},
 	{
@@ -847,13 +847,13 @@
 		"c4Sup": ""
 	},
 	{
-		"redditUrl": "",
+		"redditUrl": "https://www.reddit.com/r/winlatorxr/comments/1rd3jvr/swat_4_gog_on_meta_quest_3_via_winlatorxr/",
 		"name": "SWAT 4 (GOG)",
 		"c1Sup": "",
 		"worksQ2": "N",
 		"c2Sup": "3",
-		"worksQ3": "N",
-		"c3Sup": "3",
+		"worksQ3": "Y",
+		"c3Sup": "",
 		"worksP4": "?",		
 		"c4Sup": ""
 	},
@@ -992,6 +992,39 @@
 	{
 		"redditUrl": "https://www.reddit.com/r/winlatorxr/comments/1rait9k/crisis_response_on_a_meta_quest_3/",
 		"name": "Crisis Response",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Carmageddon 2 (GOG)",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Delta Force Land Warrior (GOG)",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Elder Scrolls Morrowind (GOG)",
 		"c1Sup": "",
 		"worksQ2": "?",
 		"c2Sup": "",
