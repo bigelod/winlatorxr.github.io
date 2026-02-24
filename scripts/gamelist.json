@@ -269,9 +269,9 @@
 		"c1Sup": "",
 		"worksQ2": "Y",
 		"c2Sup": "",
-		"worksQ3": "?",
+		"worksQ3": "Y",
 		"c3Sup": "",
-		"worksP4": "?",		
+		"worksP4": "Y",		
 		"c4Sup": ""
 	},
 	{
@@ -1018,6 +1018,17 @@
 		"worksQ2": "?",
 		"c2Sup": "",
 		"worksQ3": "N",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Elder Scrolls Morrowind (GOG)",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
 		"c3Sup": "",
 		"worksP4": "?",		
 		"c4Sup": ""
