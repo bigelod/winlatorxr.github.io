@@ -12,6 +12,7 @@
   <title>WinlatorXR</title>
 </head>
 <body>
+  <script src="scripts.js" defer></script>
   <div class="topbar">
     <input type="checkbox" id="menuToggle">
     <table class="hamburger">
@@ -35,21 +36,5 @@
   </center>
   <footer>
   </footer>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-      if (isMobile) {
-        document.body.classList.add("mobile");
-      } else {
-        document.body.classList.add("desktop");
-      }
-    });
-    document.querySelectorAll("nav a").forEach(link => {
-      link.addEventListener("click", () => {
-        document.getElementById("menuToggle").checked = false;
-      });
-    });
-  </script>
 </body>
 </html>
