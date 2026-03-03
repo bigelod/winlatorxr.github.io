@@ -36,6 +36,15 @@
   <footer>
   </footer>
   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+      if (isMobile) {
+        document.body.classList.add("mobile");
+      } else {
+        document.body.classList.add("desktop");
+      }
+    });
     document.querySelectorAll("nav a").forEach(link => {
       link.addEventListener("click", () => {
         document.getElementById("menuToggle").checked = false;
