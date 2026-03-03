@@ -12,26 +12,35 @@
   <title>WinlatorXR</title>
 </head>
 <body>
-  <center>
-    <nav>
-      <a href="about.html" target="contentFrame">About</a>
-      |
-      <a href="compatibility.html" target="contentFrame">Compatiblity</a>
-      |
-      <a href="resources.html" target="contentFrame">Resources</a>
-      |
-      <a href="tutorials.html" target="contentFrame">Tutorials</a>
-      |
-      <a href="updates.html" target="contentFrame">Updates</a>
-      |
-      <a href="xrapi.html" target="contentFrame">XR API</a>
+  <div class="topbar">
+    <input type="checkbox" id="menuToggle">
+    <table class="hamburger">
+      <tr>
+        <td><label for="menuToggle" class="hamburger">&#9776;</label></td>
+        <td><img src="img/winlatorxr.png" height="40px"/></td>
+      </tr>
+    </table>
+    <nav class="nav-links">
+      <span><a href="about.html" target="contentFrame">About</a></span>
+      <span><a href="compatibility.html" target="contentFrame">Compatibility</a></span>
+      <span><a href="resources.html" target="contentFrame">Resources</a></span>
+      <span><a href="tutorials.html" target="contentFrame">Tutorials</a></span>
+      <span><a href="updates.html" target="contentFrame">Updates</a></span>
+      <span><a href="xrapi.html" target="contentFrame">XR API</a></span>
     </nav>
-  </center>
+  </div>
   <hr>
   <center>
     <iframe name="contentFrame" src="about.html"></iframe>
   </center>
   <footer>
   </footer>
+  <script>
+    document.querySelectorAll("nav a").forEach(link => {
+      link.addEventListener("click", () => {
+        document.getElementById("menuToggle").checked = false;
+      });
+    });
+  </script>
 </body>
 </html>
