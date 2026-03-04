@@ -12,32 +12,23 @@
   <title>WinlatorXR</title>
 </head>
 <body>
-	<table>
-		<tr>
-		  <td width="50%">
-			<img src="img/winlatorxr_api.png" width="100%">
-		  </td>
-		  <td width="50%">
-			<p>
-			  <strong>WinlatorXR's API</strong> provides 6DOF tracking data and controller inputs over UDP
-			  for use in games and mods within a container.
-			</p>
-
-			<p>
-			  This is an experimental and evolving feature of WinlatorXR, and as such maintains various versions of the API for longterm compatibility. <br/>
-			  Currently this API must be used on a per-game or per-mod basis, as it is not a total replacement for the OpenXR runtime at this time. <br/>
-			  Some features of this API include:
-			</p>
-
-			<ul>
-			  <li><strong>Render in 3D</strong> – WinlatorXR API supports rendering 3D content via both Side-By-Side (SBS) and Alternate Eye Rendering (AER) methods.</li>
-			  <li><strong>Controller Haptics</strong> – UDP data returned from a game or app using the WinlatorXR API can trigger haptics in the player controllers.</li>
-			  <li><strong>Monocular VR</strong> – For content that cannot render in 3D, 6DOF tracking can still be used for a monocular VR experience.</li>
-			  <li><strong>VR in a Window</strong> – 6DOF tracking data can also be used without needing to render a fully immersive display, for a hybrid gaming experience.</li>
-			</ul>
-		  </td>
-		</tr>
-	</table>
+	<p>
+		<strong>WinlatorXR's API</strong> provides 6DOF tracking data and controller inputs over UDP for use in games and mods within a container.
+	</p>
+	<p>
+		The XR API is an experimental and continuously evolving feature of WinlatorXR. As development progresses, multiple versions of the API are maintained to ensure long-term compatibility and to prevent existing projects from breaking as improvements and refinements are introduced. Because the API is still under active development, it is not yet designed to function as a complete replacement for the OpenXR runtime. At this stage, it must be implemented on a per-game or per-mod basis, allowing developers to selectively integrate XR functionality where needed.
+	</p>
+	<p>Some features of XR API include:</p>
+	<ul>
+		<li><strong>Render in 3D</strong> – WinlatorXR API supports rendering 3D content via both Side-By-Side (SBS) and Alternate Eye Rendering (AER) methods.</li>
+		<li><strong>Controller Haptics</strong> – UDP data returned from a game or app using the WinlatorXR API can trigger haptics in the player controllers.</li>
+		<li><strong>Monocular VR</strong> – For content that cannot render in 3D, 6DOF tracking can still be used for a monocular VR experience.</li>
+		<li><strong>VR in a Window</strong> – 6DOF tracking data can also be used without needing to render a fully immersive display, for a hybrid gaming experience.</li>
+	</ul>
+	<center>
+		<img src="img/winlatorxr_api.png" width="67%"><br/>
+		<p>Rendering flow between WinlatorXR and sandboxed Windows app</p><br/>
+	</center>
 
 	<div>
 		<h2 class="heading-element" tabindex="-1">
@@ -85,7 +76,7 @@
 	    <td>R_HAPTICS</td><td>Float</td><td>Right controller vibration duration (frames)</td>
 	  </tr>
 	  <tr>
-	    <td>MODE_VR</td><td>Integer</td><td>1 = Enable VR, 0 = Disable</td>
+	    <td>MODE_VR</td><td>Integer</td><td>0 = Disable (no UDP data are sent), 1 = Enable VR, 2 = Screen mode</td>
 	  </tr>
 	  <tr>
 	    <td>MODE_3D</td><td>Integer</td><td>0 = No 3D, 1 = SBS, 2 = AER, -1 = User controlled</td>
@@ -121,7 +112,7 @@
 		<td><strong>User controlled</strong></td>
 		<td>User can select in XR settings whenever SBS or flat mode should be used.</td>
 	</tr>
-	</table></center>
+	</table></center><br/><br/>
 
 	<h3>Incoming UDP Data (WinlatorXR → Windows App)</h3>
 	<p>WinlatorXR provides data on localhost:7872 as string separated by space:</p>
@@ -190,7 +181,7 @@
 			Boolean string containing characters:<br>
 			<strong>T</strong> = TRUE<br>
 			<strong>F</strong> = FALSE<br><br>
-			<strong>Immersive</strong> – Fully immersive VR mode active<br>
+			<strong>Immersive</strong> – 3DoF immersive mode active<br>
 			<strong>SBS</strong> – Side-by-side rendering enabled
 			</td>
 		</tr>
