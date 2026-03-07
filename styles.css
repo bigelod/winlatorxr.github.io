@@ -20,6 +20,14 @@ iframe {
     border: none;
 }
 
+td img {
+    width: 100%;
+}
+
+img {
+    width: 67%;
+}
+
 nav {
     color: #FFFFFF;
     height: 7%;
@@ -141,6 +149,11 @@ center td, th {
 	padding-bottom:5px;
 	font-size:10pt;
 	line-height:25px;
+}
+
+.youtube-embed {
+  width: 560px;
+  height: 315px;
 }
 
 #menuToggle {
