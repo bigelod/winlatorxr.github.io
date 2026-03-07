@@ -24,7 +24,7 @@ td img {
     width: 100%;
 }
 
-img {
+center img {
     width: 67%;
 }
 
@@ -189,7 +189,7 @@ body.mobile nav {
 }
 
 body.mobile #menuToggle:checked ~ nav {
-  max-height: 90vh;
+  max-height: 90%;
 }
 
 .mobile .nav-links a {
