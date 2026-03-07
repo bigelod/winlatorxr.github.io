@@ -151,6 +151,14 @@ center td, th {
 	line-height:25px;
 }
 
+.col_logo {
+  width: 33%;
+}
+
+.col_text {
+  width: 67%;
+}
+
 .youtube-embed {
   width: 560px;
   height: 315px;
@@ -194,4 +202,38 @@ body.mobile #menuToggle:checked ~ nav {
 
 .mobile .nav-links a {
   font-size: 40pt;
+}
+
+body.mobile center img {
+    width: 90%;
+}
+
+body.mobile .youtube-embed {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+body.mobile a, body.mobile li, body.mobile p, body.mobile td, body.mobile th {
+    font-size: 24pt;
+}
+
+body.mobile h1 {
+    font-size: 40pt;
+}
+
+body.mobile h2 {
+    font-size: 36pt;
+}
+
+body.mobile h3 {
+    font-size: 32pt;
+}
+
+body.mobile .col_logo {
+    display: none;
+}
+
+body.mobile .col_text {
+    width: 100%;
 }
