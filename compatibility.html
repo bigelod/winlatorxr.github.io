@@ -21,20 +21,20 @@
 		Note: "Works" is a term that is fairly flexible here and still assumes that <u><strong>you will need to tweak the container settings sometimes on a per-app basis</strong></u> to get the best performance, and may still encounter crashes, lag spikes, or sound issues at some point(s) during gameplay.
 	</p>
 	<p style="width:60%">
-		Even if something has worked in previous builds of WinlatorXR, it does not guarantee it will work with the latest one as the Quest and Pico OS, WinlatorXR, and the graphics drivers within it are all constantly updating, <u><strong>your experience may vary!</strong></u> <div class="mobileonly"></br></br></div>
-		<a href="#open-panel" class="open-popup-link">Compatibility Notes</a> <div class="mobileonly"></br></br></div>
+		Even if something has worked in previous builds of WinlatorXR, it does not guarantee it will work with the latest one as the Quest and Pico OS, WinlatorXR, and the graphics drivers within it are all constantly updating, <u><strong>your experience may vary!</strong></u>
+		<div class="mobileonly"></br></br>
+			<a href="#open-panel" class="open-popup-link">Compatibility Notes</a></br></br>
+		</div>
 	</p>
 	<div class=floatcontainer">
 		<input type="text" id="gameMatrixInput" class="matrixsearch" onkeyup="searchMatrix('gameMatrixInput', 'gameMatrix')" placeholder="Search for a game...">
-		<div id="genTableGameMatrix">
-		</div>
+		<div id="genTableGameMatrix"></div>
 		<div id="open-panel" class="rightfloatpanel">
 			<div class="panel-content">
 				<h3 style="padding-left:20px;">
 					<i>Compatibility Notes:</i>
 				</h3>
-				<div id="compatnotescontainer">
-				</div>
+				<div id="compatnotescontainer"></div>
 				<div class="mobileonly"><a href="#" class="close-panel-button">Close</a></div>
 			</div>
 		</div>
@@ -44,12 +44,11 @@
 		Some apps are very useful inside of Winlator containers as well:
 	</h2>
 	<input type="text" id="appMatrixInput" class="matrixsearch" onkeyup="searchMatrix('appMatrixInput', 'appMatrix')" placeholder="Search for an app...">
-	<div id="genTableAppMatrix">
-	</div>
+	<div id="genTableAppMatrix"></div>
 	<script type="text/javascript">
-		updateCompatNotes();
 		createTableFromJson('gamelist.json','genTableGameMatrix','gameMatrix');
 		createTableFromJson('applist.json','genTableAppMatrix','appMatrix');
+		updateCompatNotes();
 	</script>
 </body>
 </html>
