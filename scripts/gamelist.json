@@ -1032,5 +1032,148 @@
 		"c3Sup": "",
 		"worksP4": "?",		
 		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Virtua Cop",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "The House of the Dead 3",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Plants Vs Zombies",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Microsoft Flight Simulator 2002",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "6",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Microsoft Flight Simulator 2004",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "6",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Microsoft Flight Simulator X",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "N",
+		"c3Sup": "6",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Virtua Cop 2",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "8",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Warcraft 3",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Orbiter 2006",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "The Sims 2",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Geometry Wars Retro Evolved",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Arvoch Alliance",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "8",
+		"worksP4": "?",		
+		"c4Sup": ""
+	},
+	{
+		"redditUrl": "",
+		"name": "Evochron Legends",
+		"c1Sup": "",
+		"worksQ2": "?",
+		"c2Sup": "",
+		"worksQ3": "Y",
+		"c3Sup": "8",
+		"worksP4": "?",		
+		"c4Sup": ""
 	}
 ]
